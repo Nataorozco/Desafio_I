@@ -51,22 +51,23 @@ Esta sección recoge las nociones surgidas de la lectura preliminar de la guía.
 
 	```
 	
-							= & ) # & ) = & ) # & ) @ # % ) = &
-							) # @ = % % ) = % & ) @ = & % % ) =
-							% & ) @ = = & # @ = % % @ # % ) & =
-							% & ) @ = # ) # @ = % % = & ) # & )
-							@ # % ) ) # @ = % & ) = % ) # @ = %
-							% ) = % & ) = = # % ) # @ = % % ) =
-							% & ) @ = # % % ) = % ) = & ) @ = #
-							= % ) = ) % # @ = % ) = @ ) # @ = %
-							% ) = % & ) @ = ) # @ = % % ) = % &
-							) @ = # % = ) = # % % ) = % & ) @ =
-							# % % ) = = % & ) @ = # ) # @ = % %
+	= & ) # & ) = & ) # & ) @ # % ) = &
+	) # @ = % % ) = % & ) @ = & % % ) =
+	% & ) @ = = & # @ = % % @ # % ) & =
+	% & ) @ = # ) # @ = % % = & ) # & )
+	@ # % ) ) # @ = % & ) = % ) # @ = %
+	% ) = % & ) = = # % ) # @ = % % ) =
+	% & ) @ = # % % ) = % ) = & ) @ = #
+	= % ) = ) % # @ = % ) = @ ) # @ = %
+	% ) = % & ) @ = ) # @ = % % ) = % &
+	) @ = # % = ) = # % % ) = % & ) @ =
+	# % % ) = = % & ) @ = # ) # @ = % %
 	
 	```
 
-- Cómo recibir las entradas del usuario. Evaluamos dos alternativas: entrada por teclado (viable) y detección de clic (descartada por el entorno de ejecución). La terminal fue el factor decisivo.
 
+
+- Cómo recibir las entradas del usuario. Evaluamos dos alternativas: entrada por teclado (viable) y detección de clic (descartada por el entorno de ejecución). La terminal fue el factor decisivo.
 
 - Cómo se ve el tablero de referencia. La guía menciona Sweet Crush como base. A partir de una búsqueda preliminar encontramos juegos similares y quedé con la impresión de que habría que mover fichas con el mouse. Esa suposición desvió parte de la reunión hacia una complejidad que el enunciado no exige. Después quedó claro que el juego no requiere arrastrar fichas: el jugador indica una posición y esa ficha se elimina.
 

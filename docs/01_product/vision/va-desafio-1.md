@@ -4,9 +4,6 @@ id: VA-001
 status: Activa
 naturaleza: Proyecto académico — juego de consola
 ---
-
-
-
 ### **Qué es:**
 
 Un juego de consola en **C++ (desarrollado en el framework Qt, sin sintaxis ANSI C)** denominado **Sweet Crush**, que demuestra el dominio de la **programación estructurada**, **manipulación de bits (bitwise)**, **gestión dinámica de memoria mediante punteros** y **arquitectura modular multi-archivo (`.h` y `.cpp`)**, entregado como la evaluación del **Desafío I** de la asignatura **Informática II** en la Universidad de Antioquia. El sistema administra un tablero dinámico representado internamente por una secuencia continua y compacta de bits, donde cada posición ocupa exactamente **3 bits** sin alineación por bytes.

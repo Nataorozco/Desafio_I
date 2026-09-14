@@ -91,8 +91,7 @@ Durante la partida se puede:
 - Agregar/eliminar una fila en cualquier posición (no solo en los extremos).
 - Agregar/eliminar una columna en cualquier posición.
 
-Estas operaciones reorganizan físicamente la memoria del tablero (no solo
-lógicamente), ver ADR de gestión de memoria.
+Estas operaciones reorganizan físicamente la memoria del tablero (no solo lógicamente), ver ADR de gestión de memoria.
 
 ## Estado del juego (a trackear o hacer seguimiento)
 - Dimensiones actuales del tablero
