@@ -33,3 +33,36 @@ unsigned int leerFicha(const unsigned char* buf, int idx) {
     }
     return (chunk >> bitOff) & 0x07u;
 }
+
+
+
+void escribirFicha(unsigned char* buf, int idx, unsigned int valor) {
+    long long bitPos = (long long)idx * 3;
+    int byteIdx = (int)(bitPos >> 3);
+    int bitOff  = (int)(bitPos & 7);
+
+    valor &= 0x07u;  // aseguramos solo 3 bits
+
+    // Máscara para los bits que vamos a modificar
+    unsigned int mask = 0x07u << bitOff;
+
+    // Reconstruimos el chunk de 16 bits de la misma forma que en leerFicha
+    unsigned int chunk = (unsigned int)buf[byteIdx];
+    if (bitOff > 5) {
+        chunk |= ((unsigned int)buf[byteIdx + 1]) << 8;
+    }
+
+    // Limpiamos los 3 bits objetivo y colocamos el nuevo valor
+    chunk = (chunk & ~mask) | (valor << bitOff);
+
+    // Escribimos de vuelta los bytes afectados
+    buf[byteIdx] = (unsigned char)(chunk & 0xFF);
+    if (bitOff > 5) {
+        buf[byteIdx + 1] = (unsigned char)((chunk >> 8) & 0xFF);
+    }
+}
+
+
+
+```
+
