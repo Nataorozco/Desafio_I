@@ -7,7 +7,9 @@ autores:
   - Nataly Orozco
 proyecto: Sweet Crush (Desafío I)
 ---
+Antes de tocar una sola línea de C++, quiero que nos pongamos de acuerdo en algo: este desafío no es un problema que hay que resolver, es un conjunto de decisiones que todavía no hemos tomado y que van a perseguirnos durante tres semanas.
 
+Porque este desafío se puede resolver de muchas formas correctas. Lo que lo vuelve un problema serio no es llegar a una solución — es poder defender, dentro de un mes, delante del profesor, por qué elegimos esta y no otra. Y esa defensa no se improvisa en la sustentación. Se construye desde el primer día.
 # Informe Preliminar: Análisis y Diseño de Sweet Crush
 
 > *"Todo proyecto empieza con una conversación, no con un documento".* 

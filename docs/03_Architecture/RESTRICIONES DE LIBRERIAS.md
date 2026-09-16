@@ -1,5 +1,3 @@
-Solo ponermos usar iostream
-
 # ADR - Restricción de librerías
 
 ## Contexto
@@ -10,7 +8,7 @@ externas (incluyendo la STL). No se permite el uso de objetos string.
 ## Decisión
 Permitimos únicamente:
 - `<iostream>` — entrada/salida por consola (cin, cout).
-- `<cstdlib>` — generación de números aleatorios (rand, srand) y
+- `<random>` — generación de números aleatorios (rand, srand) y
   utilidades de memoria 
   new/delete por ser C++).
 - `<ctime>` — semilla para el generador aleatorio (time()).
