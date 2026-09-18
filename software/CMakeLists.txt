@@ -13,10 +13,20 @@ add_executable(Desafio_I
     src/azar.cpp
     src/tablero.cpp
     src/mostrar.cpp
+    src/combinaciones.cpp
+    src/eliminacion.cpp
+    src/cascadas.cpp
+    src/redimension.cpp
+    src/estado.cpp
     include/bits.h
     include/azar.h
     include/tablero.h
     include/mostrar.h
+    include/combinaciones.h
+    include/eliminacion.h
+    include/cascadas.h
+    include/redimension.h
+    include/estado.h
 )
 
 include(GNUInstallDirs)

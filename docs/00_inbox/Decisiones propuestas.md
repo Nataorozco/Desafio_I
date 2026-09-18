@@ -1,15 +1,16 @@
 Son 6 fichas.
+NOTA: Aqui decido hacer un cambio en el codigo 000, que es la posicion vacia, en esta parte decido reemplazar ese espacio vacio por  "."  pero mas por estetica, pienso que en el momento de la impresion del tablero es menos perceptible un espacio en blanco que directamente si se pone un punto se puede notar que esa es la posicion/espacio vacia representada por un punto.
 
-| Código | Significado    |
-| ------ | -------------- |
-| 000    | Posición vacía |
-| 001    | # (35)         |
-| 010    | & (38)         |
-| 011    | @ (64)         |
-| 100    | ) (41)         |
-| 101    | = (61)         |
-| 110    | % (36)         |
-| 111    |                |
+| Código | Significado |
+| ------ | ----------- |
+| 000    | . (46)      |
+| 001    | # (35)      |
+| 010    | & (38)      |
+| 011    | @ (64)      |
+| 100    | ) (41)      |
+| 101    | = (61)      |
+| 110    | % (36)      |
+| 111    |             |
 ### Tablero de ejemplo en caracteres
 
 ```
@@ -41,6 +42,8 @@ Se usa `unsigned char*` como tipo base del buffer del tablero porque garantiza t
 
 
 FORMAS DE ALEATORIEDAD QUE PODEMOS USAR, PROPUESTA:
+
+NOTA: Aqui decido hacer un cambio despues de analisarlo mejor con Elmer habiamos hablado de usar rand() ya que el profesor en una de las clases expreso la posibilidad de usarlo siempre y cuando supieramos justificar su funcionamiento interno, pero ene el camino me encontre con una mejor opcion, a raiz de algunas investigaciones opte por usar LCG por las siguientes razones:
 
 
 Opción A: Usar `QRandomGenerator` de Qt (La opción recomendada)
